@@ -33,13 +33,13 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
                  
-                  <plugin>
+                 <plugin>
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>jib-maven-plugin</artifactId>
         <version>1.0.2</version>
         <configuration>
           <to>
-           <image>jibtest</image>
+            <image>myimage</image>
           </to>
         </configuration>
       </plugin>
